@@ -1,0 +1,75 @@
+# depslib dependency file v1.0
+1620554053 source:g:\c++\ninja_dai_chien\baseobject.cpp
+	"BaseObject.h"
+
+1620441922 g:\c++\ninja_dai_chien\baseobject.h
+	"CommonFunc.h"
+
+1620441818 g:\c++\ninja_dai_chien\commonfunc.h
+	<vector>
+	<cstdlib>
+	<ctime>
+	<windows.h>
+	<string>
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<SDL_ttf.h>
+
+1620441996 source:g:\c++\ninja_dai_chien\bulletobject.cpp
+	"BulletObject.h"
+
+1620441998 g:\c++\ninja_dai_chien\bulletobject.h
+	"BaseObject.h"
+	"CommonFunc.h"
+
+1620454082 source:g:\c++\ninja_dai_chien\commonfunc.cpp
+	"CommonFunc.h"
+
+1620442218 source:g:\c++\ninja_dai_chien\explosionobject.cpp
+	"ExplosionObject.h"
+
+1620442220 g:\c++\ninja_dai_chien\explosionobject.h
+	"BaseObject.h"
+	"CommonFunc.h"
+
+1620563751 source:g:\c++\ninja_dai_chien\main.cpp
+	<iostream>
+	"CommonFunc.h"
+	"BaseObject.h"
+	"MainObject.h"
+	"ThreatsObject.h"
+	"ExplosionObject.h"
+	"TextObject.h"
+
+1620551701 g:\c++\ninja_dai_chien\mainobject.h
+	<vector>
+	<cstdlib>
+	<ctime>
+	"CommonFunc.h"
+	"BaseObject.h"
+	"BulletObject.h"
+	"ThreatsObject.h"
+
+1620442067 g:\c++\ninja_dai_chien\threatsobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+
+1620442279 g:\c++\ninja_dai_chien\textobject.h
+	"CommonFunc.h"
+	"BaseObject.h"
+	<string>
+	<SDL_ttf.h>
+
+1620556341 source:g:\c++\ninja_dai_chien\mainobject.cpp
+	"MainObject.h"
+	"CommonFunc.h"
+
+1620442277 source:g:\c++\ninja_dai_chien\textobject.cpp
+	"TextObject.h"
+
+1620552732 source:g:\c++\ninja_dai_chien\threatsobject.cpp
+	"ThreatsObject.h"
+	"CommonFunc.h"
+	"MainObject.h"
+
